@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/widgets/layout/body.dart';
 import 'package:portfolio/widgets/layout/layout.dart';
 
 void main() {
@@ -22,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Felix Funke - Portfolio',
       theme: ThemeData(
         fontFamily: 'Kanit',
         brightness: Brightness.dark,
