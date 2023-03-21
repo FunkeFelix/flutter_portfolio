@@ -73277,7 +73277,7 @@ else s.e=s.d},
 $S:0}
 A.wJ.prototype={
 ac(){var s=t.N,r=t.z
-return new A.OQ(A.a([A.aI(["title","Software Engineer","subtitle","AUDO LLC, San Jos\xe9, USA","image","images/audo_overview.png","icon","images/audo_logo.png"],s,r),A.aI(["title","Frontend Software Engineer","subtitle","Netcentric, Berlin","image","images/kia_overview.png","icon","images/netcentric_logo.png"],s,r),A.aI(["title","Teaching Assistant","subtitle","Ironhack, Berlin","image","images/overview_ironhack.png","icon","images/ironhack_logo.png"],s,r),A.aI(["title","Jr. Software Engineer","subtitle","Dub\xe9, Berlin","image","images/overview_dube.png","icon","images/dube_logo.png","color",A.ad(204,158,158,158)],s,r),A.aI(["title","Sales Executive","subtitle","mySPOTTi GmbH, Munich","image","images/overview_myspotti.png","icon","images/myspotti_logo.png"],s,r)],t.H7),B.j)}}
+return new A.OQ(A.a([A.aI(["title","Software Engineer","subtitle","AUDO LLC, San Jos\xe9, USA","image","assets/images/audo_overview.png","icon","assets/images/audo_logo.png"],s,r),A.aI(["title","Frontend Software Engineer","subtitle","Netcentric, Berlin","image","assets/images/kia_overview.png","icon","assets/images/netcentric_logo.png"],s,r),A.aI(["title","Teaching Assistant","subtitle","Ironhack, Berlin","image","assets/images/overview_ironhack.png","icon","assets/images/ironhack_logo.png"],s,r),A.aI(["title","Jr. Software Engineer","subtitle","Dub\xe9, Berlin","image","assets/images/overview_dube.png","icon","assets/images/dube_logo.png","color",A.ad(204,158,158,158)],s,r),A.aI(["title","Sales Executive","subtitle","mySPOTTi GmbH, Munich","image","assets/images/overview_myspotti.png","icon","assets/images/myspotti_logo.png"],s,r)],t.H7),B.j)}}
 A.OQ.prototype={
 H(a){return A.i7(A.dr(A.a([A.e9(B.Dd,B.B,B.L,B.F),A.anu(new A.wI(this.d,null),B.yr)],t.p),B.B,B.L,B.F),null,null)}}
 A.HB.prototype={
@@ -79514,7 +79514,7 @@ $.apX=1
 $.aqv=null
 $.ahC=null
 $.ayr=function(){var s=t.N,r=t.z
-return A.a([A.aI(["author","Manfred Mies","company","mySPOTTi GmbH, Munich","description",'"Mr. Funke exceeded our expectations by completing the tasks assigned to him with utmost analytical accuracy and professionalism. His work left a lasting impact on our organization"',"assetUrl","images/manfred_mies.png"],s,r),A.aI(["author","Andrew Jensen","company","AUDO LLC, San Jos\xe9, USA","description",'"In addition to Felix\'s technical skills, he is a highly motivated and collaborative team member, always willing to go the extra mile to ensure that a project is completed on time and to the highest possible standard."',"assetUrl","images/andrew_jensen.png"],s,r)],t.H7)}()
+return A.a([A.aI(["author","Manfred Mies","company","mySPOTTi GmbH, Munich","description",'"Mr. Funke exceeded our expectations by completing the tasks assigned to him with utmost analytical accuracy and professionalism. His work left a lasting impact on our organization"',"assetUrl","assets/images/manfred_mies.png"],s,r),A.aI(["author","Andrew Jensen","company","AUDO LLC, San Jos\xe9, USA","description",'"In addition to Felix\'s technical skills, he is a highly motivated and collaborative team member, always willing to go the extra mile to ensure that a project is completed on time and to the highest possible standard."',"assetUrl","assets/images/andrew_jensen.png"],s,r)],t.H7)}()
 $.ayU=A.a(["Languages","Frameworks","Tools","Characteristics","Database"],t.s)
 $.ax3=A.C(t.S,A.aj("aFo"))
 $.aoa=null
