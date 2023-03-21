@@ -49,7 +49,7 @@ class _ProjectCardsState extends State<ProjectCards>
               subtitle: item['subtitle'],
               image: item['image'],
               icon: item['icon'],
-              iconColor: item['color'] as Color,
+              iconColor: item['color'] != null ? item['color'] : null,
               isExpanded: _selectedIndex == index,
               animation: _controller,
               onTap: () => onExpand(_selectedIndex == index ? -1 : index),
@@ -82,7 +82,7 @@ class AnimatedCardItem extends StatefulWidget {
   final Animation<double> animation;
   final bool isExpanded;
   final VoidCallback onTap;
-  final Color iconColor;
+  final Color? iconColor;
 
   const AnimatedCardItem({
     super.key,
@@ -93,7 +93,7 @@ class AnimatedCardItem extends StatefulWidget {
     required this.animation,
     required this.isExpanded,
     required this.onTap,
-    required this.iconColor,
+    this.iconColor,
   });
 
   @override
@@ -173,7 +173,7 @@ class _AnimatedCardItemState extends State<AnimatedCardItem> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage(widget.image),
-                              fit: BoxFit.cover,
+                              fit: BoxFit.scaleDown,
                             ),
                           ),
                           foregroundDecoration: BoxDecoration(
@@ -214,6 +214,7 @@ class _AnimatedCardItemState extends State<AnimatedCardItem> {
                                     widget.icon,
                                     width: 40,
                                     height: 40,
+                                    color: widget.iconColor ?? null,
                                   ),
                                 ),
                               ),

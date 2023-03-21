@@ -94,6 +94,7 @@ class _ContactMeFormState extends State<ContactMeForm> {
           ),
           NormalButton(
               text: 'SUBMIT',
+              icon: Icons.mail,
               backgroundColor: Colors.brown[800],
               onPressed: () {
                 if (_formKey.currentState!.validate()) {

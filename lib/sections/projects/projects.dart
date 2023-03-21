@@ -16,35 +16,31 @@ class _ProjectsState extends State<Projects> {
       'subtitle': 'AUDO LLC, San José, USA',
       'image': 'images/audo_overview.png',
       'icon': 'images/audo_logo.png',
-      'color': const Color(0xFF5D9CEC)
     },
     {
       'title': 'Frontend Software Engineer',
       'subtitle': 'Netcentric, Berlin',
-      'image': 'images/placeholder_projects.jpg',
+      'image': 'images/kia_overview.png',
       'icon': 'images/netcentric_logo.png',
-      'color': const Color(0xFF2ECC71)
     },
     {
       'title': 'Teaching Assistant',
       'subtitle': 'Ironhack, Berlin',
-      'image': 'images/placeholder_projects.jpg',
+      'image': 'images/overview_ironhack.png',
       'icon': 'images/ironhack_logo.png',
-      'color': const Color(0xFFFFCE54)
     },
     {
       'title': 'Jr. Software Engineer',
       'subtitle': 'Dubé, Berlin',
-      'image': 'images/placeholder_projects.jpg',
-      'icon': 'images/netcentric_logo.png',
-      'color': const Color(0xFFFC6E51)
+      'image': 'images/overview_dube.png',
+      'icon': 'images/dube_logo.png',
+      'color': Colors.grey.withOpacity(0.8)
     },
     {
       'title': 'Sales Executive',
       'subtitle': 'mySPOTTi GmbH, Munich',
-      'image': 'images/placeholder_projects.jpg',
+      'image': 'images/overview_myspotti.png',
       'icon': 'images/myspotti_logo.png',
-      'color': const Color(0xFFED5565),
     },
   ];
   @override

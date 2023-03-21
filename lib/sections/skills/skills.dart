@@ -6,13 +6,13 @@ import 'package:portfolio/widgets/text/headline_3.dart';
 
 List<Skill> skills = [
   Skill(name: 'Flutter', categories: ['Frameworks']),
-  Skill(name: 'Dart', categories: ['Languages']),
   Skill(name: 'React', categories: ['Frameworks']),
-  Skill(name: 'Node.js', categories: ['Languages']),
-  Skill(name: 'MongoDB', categories: ['Tools']),
+  Skill(name: 'Node.js', categories: ['Frameworks']),
   Skill(name: 'Express.js', categories: ['Frameworks']),
+  Skill(name: 'Dart', categories: ['Languages']),
   Skill(name: 'JavaScript', categories: ['Languages']),
   Skill(name: 'TypeScript', categories: ['Languages']),
+  Skill(name: 'MongoDB', categories: ['Database']),
   Skill(name: 'VS Code', categories: ['Tools']),
   Skill(name: 'Android Studio', categories: ['Tools']),
   Skill(name: 'Xcode', categories: ['Tools']),
@@ -34,6 +34,7 @@ List<Skill> skills = [
   Skill(name: 'Time Management', categories: ['Characteristics']),
   Skill(name: 'Attention to Detail', categories: ['Characteristics']),
   Skill(name: 'Self Motivation', categories: ['Characteristics']),
+  Skill(name: 'Entrepreneurial Spirit', categories: ['Characteristics']),
 ];
 
 class SkillsSection extends StatelessWidget {

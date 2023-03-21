@@ -13,6 +13,7 @@ class Skill {
     'Languages',
     'Frameworks',
     'Tools',
-    'Characteristics'
+    'Characteristics',
+    'Database',
   ];
 }

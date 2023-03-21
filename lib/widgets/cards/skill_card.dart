@@ -11,7 +11,7 @@ class SkillCard extends StatelessWidget {
       width: 20,
       height: 10,
       decoration: BoxDecoration(
-        color: Colors.grey.withOpacity(0.2),
+        color: Colors.grey.withOpacity(0.8),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(

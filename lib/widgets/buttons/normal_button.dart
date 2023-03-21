@@ -13,7 +13,7 @@ class NormalButton extends StatelessWidget {
     Key? key,
     required this.text,
     required this.onPressed,
-    this.backgroundColor = Colors.brown,
+    this.backgroundColor,
     this.foregroundColor,
     this.elevation,
     this.padding,
@@ -28,11 +28,12 @@ class NormalButton extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
         ),
-        backgroundColor: backgroundColor,
+        backgroundColor: backgroundColor ?? Colors.grey.withOpacity(0.8),
         foregroundColor: foregroundColor,
       ),
       child: icon != null
           ? Row(
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Icon(icon, size: 20).paddingOnly(right: 10),
                 Text(
