@@ -73206,7 +73206,7 @@ A.w2.prototype={
 ac(){return new A.zY(B.x3,B.j)}}
 A.zY.prototype={
 H(a){var s=null,r=A.a9B(B.Z,"Kanit",s),q=A.a9B(B.Z,s,s),p=this.d
-return new A.vO(new A.vv(A.Iz(),s),"Flutter Demo",r,q,p,s)},
+return new A.vO(new A.vv(A.Iz(),s),"Felix Funke - Portfolio",r,q,p,s)},
 a6c(a){this.a8(new A.aee(this,a))}}
 A.aee.prototype={
 $0(){this.a.d=this.b},
