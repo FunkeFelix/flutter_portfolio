@@ -8202,7 +8202,7 @@ avr(a){var s,r,q=A.a([],t.p)
 for(s=0;s<a.length;++s){r=a[s]
 if(s!==0)q.push(new A.LP(null))
 q.push(r)}return q},
-avs(a,b,c,d){return new A.LK(b,c,A.pe(d,B.yo,B.bT),null)},
+avs(a,b,c,d){return new A.LK(b,c,A.pe(d,B.yn,B.bT),null)},
 aeV(a,b,c){var s
 if(a==null)return!1
 s=a.e
@@ -73231,7 +73231,7 @@ $0(){return B.lM.qF(window,this.a,"_blank")},
 $S:67}
 A.Dx.prototype={
 H(a){var s=null,r=t.p
-return A.i7(A.dQ(A.dr(A.a([A.cR("Contact Me",s,s,s,A.a2(a).p3.c.dh(B.bE),s,s),new A.bf(new A.af(0,24,0,0),A.e9(A.a([new A.qI("images/linkedin_logo.png","LinkedIn",B.dn,new A.UU(),s),new A.qI("images/github_logo.png","GitHub",B.m,new A.UV(),s)],r),B.B,B.id,B.F),s),B.A7],r),B.B,B.L,B.F),700,600),s,s)}}
+return A.i7(A.dQ(A.dr(A.a([A.cR("Contact Me",s,s,s,A.a2(a).p3.c.dh(B.bE),s,s),new A.bf(new A.af(0,24,0,0),A.e9(A.a([new A.qI("assets/images/linkedin_logo.png","LinkedIn",B.dn,new A.UU(),s),new A.qI("assets/images/github_logo.png","GitHub",B.m,new A.UV(),s)],r),B.B,B.id,B.F),s),B.A7],r),B.B,B.L,B.F),700,600),s,s)}}
 A.UU.prototype={
 $0(){return B.lM.qF(window,"https://www.linkedin.com/in/felix-funke-b1a9561b3/","LinkedIn")},
 $S:67}
@@ -73240,9 +73240,9 @@ $0(){return B.lM.qF(window,"https://github.com/FunkeFelix","GitHub")},
 $S:67}
 A.Fq.prototype={
 H(a){var s,r=null,q=a.S(t.w).f,p=q.a,o=A.cz(r,r,B.l,r,r,r,r,r,r,r,r,r,r),n=t.l7
-o=A.akc(q,A.wG(0,A.cz(r,A.ajV("images/profile_picture.png",r,r,r),B.l,r,B.yd,r,r,r,r,r,r,r,r),r,r,r,25,r,r),o,n)
+o=A.akc(q,A.wG(0,A.cz(r,A.ajV("assets/images/profile_picture.png",r,r,r),B.l,r,B.yd,r,r,r,r,r,r,r,r),r,r,r,25,r,r),o,n)
 s=A.cz(r,r,B.l,r,r,r,r,r,r,r,r,r,r)
-return A.cz(B.I,A.cz(r,A.hJ(B.bf,A.a([new A.Fr(p,r),o,A.akc(q,A.wG(0,new A.ue(p,this.c,r),r,r,50,r,r,r),s,n)],t.p),B.P,B.b1),B.l,r,r,r,r,r,B.B8,r,r,r,1200),B.l,r,B.yj,B.yn,r,r,r,r,r,r,1/0)}}
+return A.cz(B.I,A.cz(r,A.hJ(B.bf,A.a([new A.Fr(p,r),o,A.akc(q,A.wG(0,new A.ue(p,this.c,r),r,r,50,r,r,r),s,n)],t.p),B.P,B.b1),B.l,r,r,r,r,r,B.B8,r,r,r,1200),B.l,r,B.yj,B.yp,r,r,r,r,r,r,1/0)}}
 A.Fn.prototype={
 H(a){var s=null,r=A.jf(10),q=$.Z().a7m(10,10,B.cI),p=A.ad(0,255,255,255)
 return new A.Dk(r,A.auP(new A.bf(new A.af(50,0,50,0),A.cz(s,A.dr(A.a([B.NH,A.cR("Software Engineer \nB.Sc. Business Management",s,s,s,A.a2(a).p3.f.dh(B.i),s,s)],t.p),B.cm,B.cr,B.F),B.l,p,B.yc,s,s,s,s,s,s,s,900),s),q),s)}}
@@ -73431,7 +73431,7 @@ h=i.w?B.L:B.cr
 g=i.f
 i=i.y
 f=t.p
-i=A.a([A.cz(e,new A.jY(50,50,A.i7(A.ajV(g,i==null?e:i,40,40),e,e),e),B.l,e,e,B.yp,e,e,e,e,e,e,e)],f)
+i=A.a([A.cz(e,new A.jY(50,50,A.i7(A.ajV(g,i==null?e:i,40,40),e,e),e),B.l,e,e,B.yo,e,e,e,e,e,e,e)],f)
 g=d.a
 if(g.w)i.push(new A.uO(1,B.BA,new A.bf(B.hj,A.dr(A.a([A.a25(A.a9O(A.cR(g.c,1,e,e,B.L_,e,e),new A.j(20*(1-m),0)),m),A.a25(A.a9O(A.cR(d.a.d,1,e,e,B.Mj,e,e),new A.j(20*(1-l),0)),l)],f),B.cm,B.L,B.cs),e),e))
 return A.akS(B.I,A.cz(e,A.hJ(B.bf,A.a([q,new A.eE(B.xB,e,e,new A.bf(new A.af(k,j,k,j),A.e9(i,B.B,h,B.F),e),e)],f),B.P,B.b1),B.bj,e,e,new A.c_(s.at,e,e,r,e,e,B.a1),e,400+o*20,e,e,e,e,100+o*500),e,1+o*0.02)},
@@ -76812,12 +76812,12 @@ B.y3=new A.bZ(B.vE,B.vE,B.D,B.D)
 B.DH=A.a(s([]),t.J)
 B.a1=new A.tS(0,"rectangle")
 B.ym=new A.c_(B.i,null,null,B.y3,B.DH,null,B.a1)
-B.xM=new A.jc("images/background.jpg",null,null)
-B.Aw=new A.pf(B.xM,B.fL)
-B.yn=new A.c_(null,B.Aw,null,null,null,null,B.a1)
 B.zV=new A.K(4286611584)
-B.yo=new A.c_(B.zV,null,null,null,null,null,B.a1)
-B.yp=new A.c_(B.i,null,null,null,null,null,B.dZ)
+B.yn=new A.c_(B.zV,null,null,null,null,null,B.a1)
+B.yo=new A.c_(B.i,null,null,null,null,null,B.dZ)
+B.xM=new A.jc("assets/images/background.jpg",null,null)
+B.Aw=new A.pf(B.xM,B.fL)
+B.yp=new A.c_(null,B.Aw,null,null,null,null,B.a1)
 B.yq=new A.mt(1,"contain")
 B.yr=new A.mt(3,"fitWidth")
 B.fM=new A.mt(6,"scaleDown")
