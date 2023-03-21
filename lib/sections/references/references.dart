@@ -12,14 +12,14 @@ class References extends StatelessWidget {
       'company': 'mySPOTTi GmbH, Munich',
       'description':
           '"Mr. Funke exceeded our expectations by completing the tasks assigned to him with utmost analytical accuracy and professionalism. His work left a lasting impact on our organization"',
-      'assetUrl': 'images/manfred_mies.png',
+      'assetUrl': 'assets/images/manfred_mies.png',
     },
     {
       'author': 'Andrew Jensen',
       'company': 'AUDO LLC, San José, USA',
       'description':
           '"In addition to Felix\'s technical skills, he is a highly motivated and collaborative team member, always willing to go the extra mile to ensure that a project is completed on time and to the highest possible standard."',
-      'assetUrl': 'images/andrew_jensen.png',
+      'assetUrl': 'assets/images/andrew_jensen.png',
     },
   ];
 
