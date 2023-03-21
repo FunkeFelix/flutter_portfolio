@@ -9,6 +9,7 @@ import 'package:portfolio/sections/references/references.dart';
 import 'package:portfolio/sections/skills/skills.dart';
 import 'package:portfolio/widgets/dividers/wave_divider.dart';
 import 'package:portfolio/widgets/layout/section_body.dart';
+import 'package:portfolio/extensions/media_query_data_extension.dart';
 
 class Body extends StatelessWidget {
   final Function onMenuTap;
@@ -17,49 +18,56 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const layoutWidth = 1000.0;
-    Size screenSize = MediaQuery.of(context).size;
+    MediaQueryData mq = MediaQuery.of(context);
     return Column(
       children: [
         Header(
           key: const Key('header'),
           onMenuTap: onMenuTap,
         ),
-        SizedBox(
-          width: layoutWidth,
-          child: Column(
-            children: [
-              SectionBody(
-                child: AboutMe(
-                  key: const Key('aboutMe'),
-                  widgetWidth: layoutWidth,
-                ),
+        mq.getValueByWidth(
+            xsValue: Center(
+              child: Text(
+                'Mobile under construction - please increase viewport',
+                style: Theme.of(context).textTheme.headlineLarge,
               ),
-              const SectionBody(child: CallToAction()),
-              const SectionBody(child: SkillsSection()),
-              const SectionBody(child: Projects()),
-              const SectionBody(child: References()).paddingOnly(
-                bottom: 200,
-              ),
-              const SectionBody(
-                child: WaveDivider(
-                  color: Colors.white,
-                  xOffset: 100,
-                  yOffset: 200,
-                ),
-              ),
-              Stack(
+            ),
+            lValue: SizedBox(
+              width: layoutWidth,
+              child: Column(
                 children: [
-                  Container(
-                    color: Colors.white,
-                    width: double.infinity,
-                    height: 700,
+                  SectionBody(
+                    child: AboutMe(
+                      key: const Key('aboutMe'),
+                      widgetWidth: layoutWidth,
+                    ),
                   ),
-                  const ContactMeSection()
+                  const SectionBody(child: CallToAction()),
+                  const SectionBody(child: SkillsSection()),
+                  const SectionBody(child: Projects()),
+                  const SectionBody(child: References()).paddingOnly(
+                    bottom: 200,
+                  ),
+                  const SectionBody(
+                    child: WaveDivider(
+                      color: Colors.white,
+                      xOffset: 100,
+                      yOffset: 200,
+                    ),
+                  ),
+                  Stack(
+                    children: [
+                      Container(
+                        color: Colors.white,
+                        width: double.infinity,
+                        height: 700,
+                      ),
+                      const ContactMeSection()
+                    ],
+                  )
                 ],
-              )
-            ],
-          ),
-        )
+              ),
+            ))
       ],
     );
   }
