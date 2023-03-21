@@ -16,7 +16,7 @@ class Header extends StatelessWidget {
       decoration: const BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage("images/background.jpg"),
+          image: AssetImage("assets/images/background.jpg"),
         ),
       ),
       child: Container(
@@ -33,7 +33,7 @@ class Header extends StatelessWidget {
                 child: Container(
                   constraints:
                       const BoxConstraints(maxWidth: 500, maxHeight: 860),
-                  child: Image.asset("images/profile_picture.png"),
+                  child: Image.asset("assets/images/profile_picture.png"),
                 ),
               ),
             ),

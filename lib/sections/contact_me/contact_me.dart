@@ -26,7 +26,7 @@ class ContactMeSection extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 SocialCard(
-                  iconSrc: 'images/linkedin_logo.png',
+                  iconSrc: 'assets/images/linkedin_logo.png',
                   name: 'LinkedIn',
                   color: Colors.blue,
                   onTap: () => html.window.open(
@@ -34,7 +34,7 @@ class ContactMeSection extends StatelessWidget {
                       'LinkedIn'),
                 ),
                 SocialCard(
-                  iconSrc: 'images/github_logo.png',
+                  iconSrc: 'assets/images/github_logo.png',
                   name: 'GitHub',
                   color: Colors.black,
                   onTap: () => html.window
