@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/sections/header/widgets/header_mid_section.dart';
-import 'package:portfolio/sections/header/widgets/menu_bar.dart';
 import 'package:portfolio/extensions/media_query_data_extension.dart';
+import 'package:portfolio/sections/header/widgets/menu_bar.dart';
 
 class Header extends StatelessWidget {
   final Function onMenuTap;
@@ -42,7 +42,7 @@ class Header extends StatelessWidget {
               lValue: Positioned(
                 bottom: 0,
                 left: 50,
-                child: MenuBar(
+                child: CustomMenuBar(
                   size: mq.size,
                   onMenuTap: onMenuTap,
                 ),

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/extensions/margin_padding.dart';
 
-class MenuBar extends StatefulWidget {
+class CustomMenuBar extends StatefulWidget {
   final Size size;
   final Function onMenuTap;
-  const MenuBar({super.key, required this.size, required this.onMenuTap});
+  const CustomMenuBar({super.key, required this.size, required this.onMenuTap});
   @override
-  _MenuBarState createState() => _MenuBarState();
+  _CustomMenuBarState createState() => _CustomMenuBarState();
 }
 
-class _MenuBarState extends State<MenuBar> {
+class _CustomMenuBarState extends State<CustomMenuBar> {
   int selectedIndex = 0;
   int hoverIndex = 0;
   List<String> menuItems = [
