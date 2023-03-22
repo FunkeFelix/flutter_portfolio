@@ -48,22 +48,20 @@ class Body extends StatelessWidget {
                   const SectionBody(child: References()).paddingOnly(
                     bottom: 200,
                   ),
-                  const SectionBody(
-                    child: WaveDivider(
-                      color: Colors.white,
-                      xOffset: 100,
-                      yOffset: 200,
+                  SectionBody(
+                    backgroundColor: Colors.white,
+                    child: Column(
+                      children: [
+                        WaveDivider(
+                          key: const Key('waveDivider'),
+                          waveHeight: 200,
+                          svgPath: 'assets/images/waves.svg',
+                          color: Theme.of(context).canvasColor,
+                          width: 1000,
+                        ),
+                        const ContactMeSection()
+                      ],
                     ),
-                  ),
-                  Stack(
-                    children: [
-                      Container(
-                        color: Colors.white,
-                        width: double.infinity,
-                        height: 700,
-                      ),
-                      const ContactMeSection()
-                    ],
                   )
                 ],
               ),
