@@ -22,7 +22,7 @@ class _ContactMeFormState extends State<ContactMeForm> {
 
   void _submitForm(BuildContext context) async {
     var dio = Dio();
-    const uri = 'https://formsubmit.co/6d82f1fc6ad97d2fad01566fb9096cc8';
+    const uri = 'https://formsubmit.co/felixfunke456@gmail.com';
     var map = Map<String, dynamic>();
 
     map['name'] = _nameController.text;
